@@ -12,7 +12,7 @@ diccionario = {
 }
 
 def can_costear_pythonic(productos: dict, presupuesto: float) -> dict:
-    # {llave: valor para cada item si cumple la condicion}
+    # {llave: valor para cada item si cumple la condicion} (Dictionary Comprehension)
     return {p: v for p, v in productos.items() if v <= presupuesto}
 
 # Una sola línea, clara y directa.
