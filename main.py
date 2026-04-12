@@ -28,4 +28,4 @@ def ejercicio(number: int, level: str):
     except Exception as e:
         return f"Ocurrió un error inesperado: {e}"
 
-print(ejercicio(3, "basic"))
+print(ejercicio(1, "intermediate"))
